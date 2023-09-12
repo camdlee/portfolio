@@ -17,12 +17,12 @@
 <body>
   <header class="main-header">
     <div class="main-header__logo-container">
-      <div class="main-header__logo-img-cont">
+      <!-- <div class="main-header__logo-img-cont">
         <img
           src="./assets/profile/Cameron headshot close up.JPG"
           alt="logo Image" class="main-header__logo-img" />
       </div>
-      <h4 class="main-header__logo-text">Cameron Lee</h4>
+      <h4 class="main-header__logo-text">Cameron Lee</h4> -->
     </div>
     <nav class="main-header__navigation">
       <ul class="main-header__navigation-links">
@@ -30,8 +30,8 @@
         <li class="main-header__navigation-link"><a href="./index.html#about"> About </a></li>
         <li class="main-header__navigation-link">
           <a href="./index.html#projects"> Projects </a>
-        </li>
-        <li class="main-header__navigation-link"><a href="./index.html#contact" href=""> Contact </a></li>
+        <!-- </li>
+        <li class="main-header__navigation-link"><a href="./index.html#contact" href=""> Contact </a></li> -->
       </ul>
     </nav>
     <div class="main-header__sm-scr-nav-btn">
@@ -74,12 +74,19 @@
       <div class="home-hero__info">
         <h1 class="heading-primary home-hero__heading-primary">
           <!-- <span class="heading-primary__sm"> Hello 👋</span> -->
-          <span class="heading-primary__main">
-            Hi, my name is Cameron Lee! I'm a Full Stack Developer.
-          </span>
+          <div class="profile-pic-container">
+            <img src="./assets/profile/Cameron-1.JPG"/>
+          </div>
+          <div>
+            <span class="heading-primary__main">
+              Hi, my name is Cameron Lee! I'm a Full Stack Developer.
+            </span>
+          </div>
         </h1>
-        <button class="btn btn-theme home-hero__btn-theme">Projects</button>
-        <button class="btn btn-inv home-hero__btn-theme">Contact</button>
+        <button class="btn btn-theme home-hero__btn-theme">
+          <a href="./index.html#projects">Projects</a>
+        </button>
+        <button class="btn btn-inv home-hero__btn-theme" onclick="window.location.href='https://docs.google.com/document/d/e/2PACX-1vSzOtGhSr3hi9tC8lJyPGbibb6Be0ZA0TlXqou-ALYESfV-bIJD1Uh1bRjVnsR5HdQIkSAUdm5ZuGAI/pub';" target="_blank">Resume</button>
       </div>
     </div>
   </section>
@@ -231,7 +238,7 @@
 
               <p class="text-primary projects__list-item-text-primary">
                 <span>
-                  Built with React.js, Html, and CSS using the Perenual API.
+                  Educational multi-page 
                 </span>
                 <!-- <br />
                   <br /> -->
@@ -292,7 +299,7 @@
       </div>
     </div>
   </section>
-  <section id="contact" class="contact main-section">
+  <!-- <section id="contact" class="contact main-section">
     <div class="main-container">
       <h2 class="heading-secondary">
         <span class="heading-secondary__sm"> Contact 📞</span>
@@ -322,7 +329,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <footer class="main-footer">
     <div class="main-footer__upper">
       <div class="main-container">
@@ -336,9 +343,9 @@
           <li class="main-footer__link">
             <a href="./index.html#projects">Projects</a>
           </li>
-          <li class="main-footer__link">
+          <!-- <li class="main-footer__link">
             <a href="./index.html#contact">Contact</a>
-          </li>
+          </li> -->
         </ul>
         <div class="main-footer__mid-line"></div>
         <div class="main-footer__socials">
